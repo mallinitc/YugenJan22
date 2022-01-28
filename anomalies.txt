@@ -1,0 +1,11 @@
+1. Few records have values with leading & ending whitespaces
+2. door count with 0
+3. seat count like 17, 12, 53, & 0..etc
+4. stk_year values like 5000, 8500, 7399..etc.
+5. We are asked to assume the current datetime as April 2017, so records with year values such as 2018,19..etc also invalid
+6. Bodytype values such as COMPACT, com_pact
+7. mileage has 0 & very higher like 249700,209457..etc
+8. Date values for one record as 2011-02-29 (not leap year, so invalid)
+9. Few records with last seen is older than ad created, which doesn't make any sense
+10. Manfacture year is older than 1885 (First car invented), so doesn't make sense
+11. Enginer displacement & power has very higher values, which is not known in real world.
